@@ -1,0 +1,21 @@
+.about-explanation {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  display: center;
+  text-align: center;
+}
+
+.About-Img {
+  height: 200px;
+  width: 50%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import { Switch, Route, Link } from "react-router-dom";
 import About from "../../components/About/About";
 import LandingPage from "../../routes/LandingPage";
+import Adopt from "../../components/Adopt/Adopt";
 
 function App() {
   return (

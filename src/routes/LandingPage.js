@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 
 export class LandingPage extends Component {
-    render()
+    render() {
         return (
             <div> 
                 <div className="bio-petful">
@@ -23,7 +23,9 @@ export class LandingPage extends Component {
             
             
             </div>
+            </div>
         )
+}
 }
 
 

@@ -1,4 +1,4 @@
-import config from "../../config";
+import config from "../config";
 const PeopleService = {
   getAllPeople() {
     return fetch(`${config.REACT_APP_API_BASE}/peoplle`).then((res) =>

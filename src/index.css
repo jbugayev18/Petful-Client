@@ -1,0 +1,40 @@
+html {
+  background-image: url("paw-1s-1084px.svg");
+}
+
+body {
+  text-align: center;
+}
+.petful {
+  background-color: lightgrey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 20px;
+  width: 14%;
+}
+
+.bio-petful {
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: lightgray;
+  width: 80%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.landing-page-info {
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: lightgray;
+  width: 80%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.landing-content {
+  margin: 20px auto;
+}

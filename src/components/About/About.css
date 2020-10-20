@@ -7,15 +7,18 @@
 p {
   display: center;
   text-align: center;
+  background-color: lightgrey;
+  margin: 10px auto;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .About-Img {
-  height: 200px;
+  height: 300px;
   width: 50%;
 }
 
-.buttons {
-  display: flex;
-  justify-content: center;
+button {
   flex-direction: column;
 }

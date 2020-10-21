@@ -225,7 +225,7 @@ export class Adopt extends Component {
         {dogCard}
         <section>
           <h2>Let's See Who Is In Line To Adopt! </h2>
-          <ol className="landing-content">{nextInLine}</ol>
+          <ol className="nextin-line">{nextInLine}</ol>
         </section>
         <form onSubmit={this.onSubmit}>
           <h1>Get in Line!</h1>

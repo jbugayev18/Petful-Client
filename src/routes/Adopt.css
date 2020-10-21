@@ -28,3 +28,12 @@ p {
   padding: 20px;
   width: 16%;
 }
+
+.nextin-line {
+  background-color: lightgray;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 16%;
+}

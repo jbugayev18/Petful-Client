@@ -21,6 +21,7 @@ export class Adopt extends Component {
 
   componentDidMount() {
     PetService.getAllPets().then((pets) => {
+      console.log(pets);
       this.setState({
         cats: [pets.cat],
         dogs: [pets.dog],
@@ -35,7 +36,7 @@ export class Adopt extends Component {
   // }
 
   petCountdown = () => {
-    let countdown = setInterval(() => {
+    var countdown = setInterval(() => {
       if (this.state.people.length < 2) {
         this.addToQueue();
         this.setState({
@@ -163,11 +164,11 @@ export class Adopt extends Component {
 
   render() {
     let hiddenClass = this.state.isHidden ? "hiddenClass" : "";
-    let cats = this.cats ? this.state.cats : [];
+    let cats = this.state.cats ? this.state.cats : [];
     let catCard = cats.map((cat) => {
       return (
         <div key="1" className="landing-content">
-          <img src={cat} alt="Landing Cat" />
+          <img src={cat.imageURL} alt="Landing Cat" />
           <h2>Name: {cat.name}</h2>
           <p>Gender: {cat.gender}</p>
           <p>Age: {cat.age}</p>
@@ -229,7 +230,9 @@ export class Adopt extends Component {
         <form onSubmit={this.onSubmit}>
           <h1>Get in Line!</h1>
           <div className="landing-content">
-            <label htmlFor="full-name">Enter Your Name</label>
+            <label className="full-name" htmlFor="full-name">
+              Enter Your Name
+            </label>
             <br />
             <input
               onChange={(event) =>

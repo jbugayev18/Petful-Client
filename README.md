@@ -5,7 +5,7 @@
 # Links to Server and Client
 
 </br>
-Client: https://petful-client-lwruqp4zk.vercel.app.now.sh
+Client: https://petful-client-lwruqp4zk.vercel.app
 </br>
 Server: https://cryptic-badlands-61007.herokuapp.com/
 

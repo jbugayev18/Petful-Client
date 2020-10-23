@@ -1,0 +1,25 @@
+.bio-petful,
+.petful {
+  background-color: #d3d3d3;
+  text-align: center;
+  margin: 10px auto;
+  padding: 20px;
+  justify-content: center;
+  width: 60%;
+}
+
+.landing-page-info {
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #d3d3d3;
+}
+
+.introduction {
+  text-align: center;
+  font-size: medium;
+}
+
+.more-info {
+  text-align: small;
+}
